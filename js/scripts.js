@@ -10,6 +10,16 @@ $(document).ready(function(){
     var foo = parseInt($("input:radio[name=food]:checked").val());
     console.log(ani, hol, col, cel, mov, foo);
 
+    if () {
+
+    }else if () {
+
+    }else if () {
+
+    }else if () {
+
+    }
+
   });
 
 
