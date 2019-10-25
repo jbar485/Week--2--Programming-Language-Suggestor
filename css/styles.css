@@ -8,6 +8,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .row {
   background-color: white;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .submit {
@@ -39,9 +40,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #end {
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
   text-align: center;
   margin-top: 20px;
 }
