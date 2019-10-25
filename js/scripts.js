@@ -11,14 +11,14 @@ $(document).ready(function(){
     var anihol = ani + hol;
     var colcel = col + cel;
     var movfoo = mov + foo;
-
+    
     if (anihol <= 5 && colcel > 5 && movfoo > 5) {
       $("#final-answer").show().text("Python");
       $("button#python").show().click(function(event){
 
       });
       $("button#reset").show().click(function(event){
-
+        location.reload();
       });
     }else if (anihol > 5 && colcel <= 5 && movfoo <= 5) {
       $("#final-answer").show().text("javaScript");
@@ -26,7 +26,7 @@ $(document).ready(function(){
 
       });
       $("button#reset").show().click(function(event){
-
+        location.reload();
       });
     }else if (anihol <= 5 && colcel <= 5 && movfoo <= 5) {
       $("#final-answer").show().text("C#");
