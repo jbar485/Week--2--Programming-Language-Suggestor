@@ -8,16 +8,21 @@ $(document).ready(function(){
     var cel = parseInt($("input:radio[name=celebrity]:checked").val());
     var mov = parseInt($("input:radio[name=movie]:checked").val());
     var foo = parseInt($("input:radio[name=food]:checked").val());
+    var anihol = ani + hol;
+    var colcel = col + cel;
+    var movfoo = mov + foo;
     console.log(ani, hol, col, cel, mov, foo);
 
-    if () {
-
-    }else if () {
-
-    }else if () {
-
-    }else if () {
-
+    if (anihol <= 5 && colcel > 5 && movfoo > 5) {
+      $("#final-answer").show().text("Python");
+    }else if (anihol > 5 && colcel <= 5 && movfoo <= 5) {
+      $("#final-answer").show().text("javaScript");
+    }else if (anihol <= 5 && colcel <= 5 && movfoo <= 5) {
+      $("#final-answer").show().text("C#");
+    }else if (anihol > 5 && colcel > 5 && movfoo > 5) {
+      $("#final-answer").show().text("Ruby");
+    }else {
+      $("#final-answer").show().text("Check to make sure all fields are filled out");
     }
 
   });
