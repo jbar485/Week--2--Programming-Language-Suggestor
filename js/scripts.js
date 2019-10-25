@@ -11,19 +11,35 @@ $(document).ready(function(){
     var anihol = ani + hol;
     var colcel = col + cel;
     var movfoo = mov + foo;
-    console.log(ani, hol, col, cel, mov, foo);
 
     if (anihol <= 5 && colcel > 5 && movfoo > 5) {
       $("#final-answer").show().text("Python");
+      $("button#reset").show().click(function(event){
+        location.reload();
+      });
     }else if (anihol > 5 && colcel <= 5 && movfoo <= 5) {
       $("#final-answer").show().text("javaScript");
+      $("button#reset").show().click(function(event){
+        location.reload();
+      });
     }else if (anihol <= 5 && colcel <= 5 && movfoo <= 5) {
       $("#final-answer").show().text("C#");
+      $("button#reset").show().click(function(event){
+        location.reload();
+      });
     }else if (anihol > 1 && colcel > 1 && movfoo > 1) {
       $("#final-answer").show().text("Ruby");
+      $("button#reset").show().click(function(event){
+        location.reload();
+      });
     }else {
       $("#final-answer").show().text("Check to make sure all fields are filled out");
-    }
+      $("button#reset").show().click(function(event){
+        location.reload();
+
+      });
+
+    };
 
 
   });
