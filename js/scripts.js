@@ -11,7 +11,7 @@ $(document).ready(function(){
     var anihol = ani + hol;
     var colcel = col + cel;
     var movfoo = mov + foo;
-    
+
     if (anihol <= 5 && colcel > 5 && movfoo > 5) {
       $("#final-answer").show().text("Python");
       $("button#python").show().click(function(event){
@@ -52,7 +52,19 @@ $(document).ready(function(){
       });
 
     };
-
+    // was working on a mad lib generator using the same inputs
+    // if (ani === 1) {
+    //   ani = cat
+    // }else if (ani === 2) {
+    //   ani = dog
+    // }
+    // else if (ani === 3) {
+    //   ani = fish
+    // }else {
+    //   ani = reptile
+    // }
+    //
+    // $("#e").text(ani);
 
   });
 
