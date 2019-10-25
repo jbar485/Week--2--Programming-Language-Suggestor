@@ -15,23 +15,23 @@ $(document).ready(function(){
     if (anihol <= 5 && colcel > 5 && movfoo > 5) {
       $("#final-answer").show().text("Python");
       $("button#python").show().click(function(event){
-        location.reload();
+
       });
       $("button#reset").show().click(function(event){
-        location.reload();
+
       });
     }else if (anihol > 5 && colcel <= 5 && movfoo <= 5) {
       $("#final-answer").show().text("javaScript");
       $("button#javascript").show().click(function(event){
-        location.reload();
+
       });
       $("button#reset").show().click(function(event){
-        location.reload();
+
       });
     }else if (anihol <= 5 && colcel <= 5 && movfoo <= 5) {
       $("#final-answer").show().text("C#");
       $("button#c").show().click(function(event){
-        location.reload();
+
       });
       $("button#reset").show().click(function(event){
         location.reload();
@@ -39,7 +39,7 @@ $(document).ready(function(){
     }else if (anihol > 1 && colcel > 1 && movfoo > 1) {
       $("#final-answer").show().text("Ruby");
       $("button#ruby").show().click(function(event){
-        location.reload();
+
       });
       $("button#reset").show().click(function(event){
         location.reload();
