@@ -14,6 +14,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   background-color: black;
   color: white;
   width: 100%;
+  margin: 10px;
 }
 
 /* imgages */
@@ -27,4 +28,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 #sub-header {
   font-family: fantasy;
+}
+
+#question {
+  text-align: center;
+  width: 100%;
+  font-family: fantasy;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+#end {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#final-answer {
+
 }
