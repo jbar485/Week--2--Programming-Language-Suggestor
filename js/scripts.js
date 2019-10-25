@@ -19,11 +19,12 @@ $(document).ready(function(){
       $("#final-answer").show().text("javaScript");
     }else if (anihol <= 5 && colcel <= 5 && movfoo <= 5) {
       $("#final-answer").show().text("C#");
-    }else if (anihol > 5 && colcel > 5 && movfoo > 5) {
+    }else if (anihol > 1 && colcel > 1 && movfoo > 1) {
       $("#final-answer").show().text("Ruby");
     }else {
       $("#final-answer").show().text("Check to make sure all fields are filled out");
     }
+
 
   });
 
