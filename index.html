@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
@@ -14,42 +14,159 @@
       <h1>Programming Language Selector</h1>
       <p id="sub-header">Let us help you find what language suits your needs</p>
     </div>
-
-    <div class="row">
-      <div class="col">
-        <div class="card border-dark mb-3" style="max-width: 18rem;">
-          <div class="card-header">Questions</div>
-          <div class="card-body text-dark">
-            <h5 class="card-title">Primary card title</h5>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Default radio
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
-                Second default radio
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Default radio
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
-                Second default radio
-              </label>
+    <<div class="row">
+      <div class="card">
+        <div class="card-header">Questions</div>
+        <div class="col">
+          <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+              <h5 class="card-title">What is your favorite food?</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="food" id="pizza" value="1">
+                <label class="form-check-label" for="pizza">Pizza</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="food" id="taco" value="2">
+                <label class="form-check-label" for="taco">Tacos</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="food" id="tai" value="3">
+                <label class="form-check-label" for="tai">Tai Food</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="food" id="chicken" value="4">
+                <label class="form-check-label" for="chicken">Chicken Wings</label>
+              </div>
             </div>
           </div>
-        
+        </div>
+        <div class="col">
+          <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+              <h5 class="card-title">What is your favorite animal?</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="animal" id="cat" value="1">
+                <label class="form-check-label" for="cat">Cat</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="animal" id="dog" value="2">
+                <label class="form-check-label" for="dog">Dog</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="animal" id="fish" value="3">
+                <label class="form-check-label" for="fish">Fish</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="animal" id="reptile" value="4">
+                <label class="form-check-label" for="reptile">Reptile</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+              <h5 class="card-title">What is your favorite holiday?</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="holiday" id="christmas" value="1">
+                <label class="form-check-label" for="christmas">Christmas</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="holiday" id="4th" value="2">
+                <label class="form-check-label" for="4th">4th of July</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="holiday" id="thanksgiving" value="3">
+                <label class="form-check-label" for="thanksgiving">Thanksgiving</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="holiday" id="easter" value="4">
+                <label class="form-check-label" for="easter">Easter</label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+              <h5 class="card-title">What is your favorite color?</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="color" id="red" value="1">
+                <label class="form-check-label" for="red">Red</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="color" id="blue" value="2">
+                <label class="form-check-label" for="blue">Blue</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="color" id="green" value="3">
+                <label class="form-check-label" for="green">Green</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="color" id="other" value="4">
+                <label class="form-check-label" for="other">Other</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+              <h5 class="card-title">What is your favorite Movie?</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="movie" id="action" value="1">
+                <label class="form-check-label" for="action">Action</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="movie" id="comedy" value="2">
+                <label class="form-check-label" for="comedy">Comedy</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="movie" id="thriller" value="3">
+                <label class="form-check-label" for="thriller">Thriller</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="movie" id="drama" value="4">
+                <label class="form-check-label" for="drama">Drama</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+              <h5 class="card-title">What is your favorite Celebrity?</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="celebrity" id="leo" value="1">
+                <label class="form-check-label" for="leo">Leonardo Dicaprio</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="celebrity" id="selena" value="2">
+                <label class="form-check-label" for="selena">Selena Gomez</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="celebrity" id="chris" value="3">
+                <label class="form-check-label" for="chris">Chris Pratt</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="celebrity" id="other1" value="4">
+                <label class="form-check-label" for="other1">Other</label>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-dark submit">Submit</button>
         </div>
       </div>
     </div>
+
+    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+      <div class="card-header">Answer</div>
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+
 
   </div>
 </body>
